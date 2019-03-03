@@ -17,7 +17,7 @@
 
     <footer class="footer">
       <span class="footer__copyright">Copyright © {{ new Date().getFullYear() }}. </span>
-      <span class="footer__links">Created by <a href="//samundefined.com"> SamUndefined </a> with the power of <a href="//gridsome.org">Gridsome</a> ❤️</span>
+      <span class="footer__links">Created by <a href="//samundefined.com"> SamUndefined</a> with the power of <a href="//gridsome.org">Gridsome</a> ❤️</span>
     </footer>
 
   </div>

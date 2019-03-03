@@ -1,20 +1,28 @@
 <template>
 	<div class="author">
 
-		<g-image alt="Author image" class="author__image" src="~/assets/images/author.jpg" width="180" height="180" blur="5" />
+		<g-image alt="Author image" class="author__image" src="~/assets/images/tabie.jpg" width="180" height="180" blur="5" />
 
 		<h1 v-if="showTitle" class="author__site-title">
 			<!-- todo: get title from a netlify controlled piece of data -->
 			{{ $static.metaData.siteName }}
 		</h1>
 
-		<p class="author__intro">
-			An awesome new blog website for an awesome little sister!
+		<p class="author__links">
+			<a href="//youtube.com/channel/UCYJUWAid0wsbsvqt_XYevww">
+				<g-image immediate="true" alt="Youtube Icon" src="/icons/youtube.svg" />
+			</a>
+			<a href="//instagram.com/tabie2016">
+				<g-image immediate="true" alt="Instagram Icon" src="/icons/instagram.svg" />
+			</a>
+			<a href="//pinterest.com/Tabie2016/">
+				<g-image immediate="true" alt="Pinterest Icon" src="/icons/pinterest.svg" />
+			</a>
 		</p>
 
-		<p class="author__links">
-			<a href="//twitter.com/gridsome">Twitter</a>
-			<a href="//github.com/gridsome/gridsome-starter-blog">Youtube</a>
+		<p class="author__quote">
+			If you cannot lift the load off another's back, do not walk away. Try to lighten it. 
+			<em class="author__quote__author">—Frank Tyger</em>
 		</p>
 
 	</div>
@@ -48,12 +56,17 @@ export default {
 		margin-bottom: 1em;
 	}
 
-	&__intro {
+	&__quote {
 		opacity: .8;
+		&__author {
+			opacity: .7;
+		}
 	}
 
 	&__site-title {
 		font-size: 1.5em;
+		margin-top: -0.5rem;
+		margin-bottom: 1.5rem;
 	}
 
 	&__links {

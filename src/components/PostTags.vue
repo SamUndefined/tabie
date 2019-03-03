@@ -21,7 +21,9 @@ export default {
   	font-size: .8em;
   	color: currentColor;
   	text-decoration: none;
-  	background-color: var(--bg-color);
+		background-color: var(--bg-color);
+		border: solid 1px rgba(117, 117, 113, 0.685);
+		border-radius: 3px;
   	color: currentColor!important; //Todo: remove important;
   	padding: .5em;
   	border-radius: var(--radius);
