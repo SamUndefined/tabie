@@ -21,8 +21,8 @@
 		</p>
 
 		<p class="author__quote">
-			If you cannot lift the load off another's back, do not walk away. Try to lighten it. 
-			<em class="author__quote__author">—Frank Tyger</em>
+			A small act is worth a million thoughts. 
+			<em class="author__quote__author"> —Ai Weiwei</em>
 		</p>
 
 	</div>
