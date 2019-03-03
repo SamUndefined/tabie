@@ -2,7 +2,7 @@
 layout: blog
 title: Preparing For Spring
 date: 2019-03-03T23:10:52.347Z
-thumbnail: /images/uploads/20180521_202630.jpg
+cover_image: ./images/20180521_202630.jpg
 tags:
   - Spring 2019
 ---
