@@ -2,7 +2,7 @@
 layout: blog
 title: Taking A Chance
 date: 2019-03-03T22:48:55.877Z
-thumbnail: /images/uploads/20181009_092202.jpg
+cover_image: ./images/20181009_092202.jpg
 tags:
   - Setting  Goals
 ---

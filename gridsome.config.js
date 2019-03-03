@@ -6,7 +6,7 @@
 
 module.exports = {
   siteName: 'Tabie Wolstencroft',
-  siteDescription: 'An awesome new blog website for an awesome little sister!',
+  siteDescription: 'Tabie Wolstencroft\'s website.',
 
   plugins: [
     {
