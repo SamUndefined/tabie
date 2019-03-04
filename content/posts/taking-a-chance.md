@@ -3,6 +3,7 @@ layout: blog
 title: Taking A Chance
 date: 2019-03-03T22:48:55.877Z
 cover_image: ./images/20181009_092202.jpg
+description: Two years ago, I took a chance on moving halfway across the country. I had a home (though it wasn’t ideal), I had my close friends and a job I loved. But that still didn’t stop me. I wanted to grow mentally and really go after my dream job. Youtube and writing and owning an online store. 
 tags:
   - Setting  Goals
 ---

@@ -3,6 +3,7 @@ layout: blog
 title: Preparing For Spring
 date: 2019-03-03T23:10:52.347Z
 cover_image: ./images/20180521_202630.jpg
+description: Beautiful blooming flowers, Short freely growing grass, gorgeous weather and... bugs?
 tags:
   - Spring 2019
 ---
