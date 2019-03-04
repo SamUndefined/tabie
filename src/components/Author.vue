@@ -44,7 +44,7 @@ export default {
 
 <style lang="scss">
 .author {
-	margin: 0 auto;
+	margin: 0.75rem auto 0;
 	max-width: 500px;
 	text-align: center;
 	padding: 0 0 calc(var(--space) / 2) 0;
