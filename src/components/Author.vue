@@ -21,8 +21,8 @@
 		</p>
 
 		<p class="author__quote">
-			A small act is worth a million thoughts. 
-			<em class="author__quote__author"> —Ai Weiwei</em>
+			{{ quote.quote }}
+			<em class="author__quote__author"> —{{ quote.author }}</em>
 		</p>
 
 	</div>
@@ -37,8 +37,16 @@ query {
 </static-query>
 
 <script>
+import Quote from '../data/quote.yml'
+
 export default {
-	props: ['showTitle']
+	props: ['showTitle'],
+	// todo: yaml transformer so we can use graphql?
+	computed: {
+		quote () {
+			return Quote
+		},
+	}
 }
 </script>
 
