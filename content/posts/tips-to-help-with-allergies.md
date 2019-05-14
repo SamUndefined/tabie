@@ -2,6 +2,7 @@
 layout: blog
 title: Tips To Help with Allergies
 date: 2019-05-14T09:05:17.055Z
+cover_image: /./images/18580685_301091460328595_3355689297331093504_n.jpg
 description: >-
   Here I've written down some tips if your allergies are kicking your butt this
   season!
