@@ -2,6 +2,7 @@
 layout: blog
 title: Midnight Thoughts
 date: 2019-05-14T09:15:58.715Z
+cover_image: /./images/midnightthoughtblog.png
 description: >-
   I'm not sure why I'm awake..it's four am and I just can't seem to sleep. This
   tends to happen when I get stressed or nervous. Anyway, I figured why not
