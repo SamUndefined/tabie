@@ -7,7 +7,7 @@ description: >-
   Here I've written down some tips if your allergies are kicking your butt this
   season!
 tags:
-  - '#Allergieseason'
+  - Allergieseason
 ---
 Allergies are painful and inconvenient. Around 8 percent of the United States have hay fever. There is the obvious option such as taking a pill or getting surgery but I’d like to introduce some home remedies that have helped me deal with mine. 
 
