@@ -6,7 +6,7 @@ description: |-
   Stop saying someday or tomorrow. 
   Try telling that to those in need.
 tags:
-  - Faith
+  - change
 ---
 “Insanity is doing the same thing, over and over again, but expecting different results.” 
 
