@@ -1,6 +1,6 @@
 ---
 layout: blog
-title: The Society We CHoose To Live In
+title: The Society We Choose To Live In
 date: 2019-05-25T23:34:47.262Z
 description: |-
   Stop saying someday or tomorrow. 
