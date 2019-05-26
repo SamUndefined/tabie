@@ -78,7 +78,7 @@ I’m writing this with a lot of emotion because I want you to feel a bit how I 
 
 tabiealissa@gmail.com if you notice anything to the point where it doesn’t make sense.
 
-Thank you for taking the time to read this but I truly hope this motivated you to acted today. Much like my shirt says “ be the change you wish to see in the world” -Gandi
+Thank you for taking the time to read this but I truly hope this motivated you to acted today. Much like my shirt says “ be the change you wish to see in the world” -Gandhi
 
 ...
 
