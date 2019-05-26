@@ -87,3 +87,15 @@ If you're looking for a good song sort of on this topic. I'd recommend Cycle Of 
 "You should never take more than you give" - Lion King(Cycle Of Life)
 
 "Change is Good." -Rafiki(Lion King)
+
+There's a reason behind all our actions. Those that abuse the system feel they need to because they also don't have everything they need. 
+
+Lets stop thinking about the 1-10 chance because even the 1 chance deserve it as much as those who haven't abused it.
+
+I learned this from an episode of What Would you Do. 
+
+Here's the episode if you're interested  --> https://www.youtube.com/watch?v=32jBWpwb-SI
+
+Even entertainment can teach us what's morally right. Often times our mind gets cloudy when we're too close to a situation. That's why it's easy for us to see things so clearly when it's 'not real'.
+
+Make a difference today. We only get one life afterall.
