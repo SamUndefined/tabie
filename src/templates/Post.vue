@@ -99,6 +99,14 @@ query Post ($path: String!) {
   }
 
   &__content {
+    a {
+      overflow-wrap: break-word;
+      word-wrap: break-word;
+      -ms-word-break: break-all;
+      word-break: break-all;
+      word-break: break-word;
+    }
+
     h2:first-child {
       margin-top: 0;
     }
