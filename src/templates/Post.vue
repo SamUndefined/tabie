@@ -10,9 +10,10 @@
     </div>
     
     <div class="post content-box">
-      <div class="post__header">
+      <!-- TODO: fix once gridsome fixes this issue -->
+      <!-- <div class="post__header">
         <g-image alt="Cover image" v-if="$page.post.coverImage" :src="$page.post.coverImage" />
-      </div>
+      </div> -->
 
       <div class="post__content" v-html="$page.post.content" />
 
@@ -68,7 +69,6 @@ query Post ($path: String!) {
     }
     description
     content
-    cover_image (width: 860, blur: 10)
   }
 }
 </page-query>
@@ -99,6 +99,14 @@ query Post ($path: String!) {
   }
 
   &__content {
+    a {
+      overflow-wrap: break-word;
+      word-wrap: break-word;
+      -ms-word-break: break-all;
+      word-break: break-all;
+      word-break: break-word;
+    }
+
     h2:first-child {
       margin-top: 0;
     }
