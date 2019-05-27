@@ -25,14 +25,13 @@ query MenuPages {
 <style>
 .menu {
   margin: -1rem auto 2rem;
-  width: 50%;
   list-style-type: none;
   text-align: center;
 }
 
 .menu li {
   display: inline-block;
-  margin: auto 2rem;
+  margin: auto 1rem;
 }
 
 .menu li a {
