@@ -27,6 +27,15 @@ module.exports = {
       }
     },
     {
+      // Create posts from markdown files
+      use: '@gridsome/source-filesystem',
+      options: {
+        typeName: 'About',
+        path: 'content/about.md',
+        route: 'about',
+      }
+    },
+    {
       use: '@gridsome/plugin-google-analytics',
       options: {
         id: 'UA-140891510-1'

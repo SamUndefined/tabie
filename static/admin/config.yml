@@ -19,7 +19,12 @@ collections:
       - {label: "Description", name: "description", widget: "text"}
       - {label: "Tags", name: "tags", widget: "list"}
       - {label: "Body", name: "body", widget: "markdown"}
-
+  - name: "about"
+    label: "About Page"
+    file: "content/about.md"
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Body", name: "body", widget: "markdown" }
   - name: "data"
     label: "Data"
     files:
