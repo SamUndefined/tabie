@@ -36,7 +36,6 @@ export default {
 <style <style lang="scss">
 .page {
     margin: auto;
-    background-color: white;
     padding: 1.5rem 1rem;
     border: 1px solid rgba(100, 100, 100, .25);
     border-radius: var(--radius) var(--radius) 0 0;
