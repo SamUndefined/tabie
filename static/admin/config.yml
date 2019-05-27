@@ -21,7 +21,7 @@ collections:
       - {label: "Body", name: "body", widget: "markdown"}
   - name: "menuPage"
     label: "Menu Pages"
-    folder: "content/pages"
+    folder: "content/menuPages"
     create: true
     slug: "{{slug}}"
     fields:
