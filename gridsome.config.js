@@ -27,12 +27,11 @@ module.exports = {
       }
     },
     {
-      // Create posts from markdown files
       use: '@gridsome/source-filesystem',
       options: {
-        typeName: 'About',
-        path: 'content/about.md',
-        route: 'about',
+        typeName: 'MenuPage',
+        path: 'content/menuPages/*.md',
+        route: '/:slug',
       }
     },
     {
