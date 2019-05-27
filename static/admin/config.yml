@@ -19,7 +19,14 @@ collections:
       - {label: "Description", name: "description", widget: "text"}
       - {label: "Tags", name: "tags", widget: "list"}
       - {label: "Body", name: "body", widget: "markdown"}
-
+  - name: "menuPage"
+    label: "Menu Pages"
+    folder: "content/pages"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Body", name: "body", widget: "markdown" }
   - name: "data"
     label: "Data"
     files:
@@ -29,23 +36,4 @@ collections:
         fields:
           - { label: "Quote", name: "quote", widget: "string" }
           - { label: "Author", name: "author", widget: "string" }
-      # TODO: readd about, and about page
-      # - name: "about"
-      #   label: "About"
-      #   file: "src/data/About.yml"
-      #   fields:
-      #     - { label: "Title", name: "title", widget: "string", default: "About" }
-      #     - name: "items"
-      #       label: "Items"
-      #       widget: "list"
-      #       fields:
-      #         - { label: "Title", name: "title", widget: "string" }
-      #         - { label: "Description", name: "description", widget: "text" }
-
-      # TODO: readd contact, and contact page
-      # - name: "contact"
-      #   label: "Contact"
-      #   file: "src/data/Contact.yml"
-      #   fields:
-      #     - { label: "Title", name: "title", widget: "string", default: "Contact" }
-      #     - { label: "Description", name: "description", widget: "text" }
+          

@@ -27,6 +27,14 @@ module.exports = {
       }
     },
     {
+      use: '@gridsome/source-filesystem',
+      options: {
+        typeName: 'MenuPage',
+        path: 'content/menuPages/*.md',
+        route: '/:slug',
+      }
+    },
+    {
       use: '@gridsome/plugin-google-analytics',
       options: {
         id: 'UA-140891510-1'

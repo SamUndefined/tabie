@@ -1,11 +1,26 @@
 <template>
   <menu>
     <ul class="menu">
-      <g-link to="/about" tag="li"><a>About</a></g-link>
-      <g-link to="/contact" tag="li"><a>Contact</a></g-link>
+      <g-link v-for="edge in $static.menuPages.edges" :key="edge.node.id" :to="edge.node.path" tag="li">
+        <a>{{edge.node.title}}</a>
+      </g-link>
     </ul>
   </menu>
 </template>
+
+<static-query>
+query MenuPages {
+  menuPages: allMenuPage {
+    edges {
+      node {
+        id
+        title
+        path
+      }
+    }
+  }
+}
+</static-query>
 
 <style>
 .menu {

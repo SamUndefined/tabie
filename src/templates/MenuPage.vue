@@ -1,12 +1,22 @@
 <template>
     <Layout :show-logo="true">
         <Author :show-title="true" />
-        <div class="contact">
-        <h1>Have my contact details!</h1>
-            Email: <a href="mailto:tabie2016@gmail.com">tabie2016@gmail.com</a>
+
+        <div class="page">
+          <h1>{{$page.page.title}}</h1>
+          <div v-html="$page.page.content"></div>
         </div>
     </Layout>
 </template>
+
+<page-query>
+query MenuPage ($path: String!) {
+  page: menuPage (path: $path) {
+    title
+    content
+  }
+}
+</page-query>
 
 <script>
 import Author from '~/components/Author.vue'
@@ -15,20 +25,24 @@ export default {
   components: {
     Author,
   },
-  metaInfo: {
-    title: 'Contact'
-  }
+  metaInfo () {
+    return {
+      title: this.$page.page.title
+    }
+  },
 }
 </script>
 
-<style lang="scss">
-.contact {
+<style <style lang="scss">
+.page {
     margin: auto;
-    text-align: center;
-    background-color: white;
-    padding: 3rem 0;
+    padding: 1.5rem 1rem;
     border: 1px solid rgba(100, 100, 100, .25);
     border-radius: var(--radius) var(--radius) 0 0;
+
+    h1 {
+      text-align: center
+    }
 
     @media screen and (min-width: 600px) {
         max-width: 80%;
