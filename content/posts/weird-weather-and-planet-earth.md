@@ -10,13 +10,7 @@ tags:
 ---
 Did you know that 2018 has been the hottest year yet?
 
-
-
-
-
 The past few months have been insane! 
-
-
 
 For example, Fall only lasted about a month, winter came late, winter didn’t want to end, polar vortex, record-breaking lows, and highs across the country, and now it's raining every other day in places like LA and LV. I used to live in LA and Las Vegas and my family still lives in Las Vegas so it’s not just the news saying it. We’re all noticing it. And I think we(at least most of us) agree that the weather is actually...strange.
 
@@ -29,8 +23,6 @@ I just can’t seem to get it out of my head for more than a minute but don’t 
 I mean it takes a lot of people and not ‘bad actions’ but certain kinds of actions to cause such a major effect like the ones we’re seeing today. 
 
 I was talking to my roommate about this and I came up this this analogy:
-
-
 
 Earth’s current condition is like a deep cut to us. It’s not that it’s unfixable but it needs the right care to be healed. 
 
@@ -56,7 +48,7 @@ https://www.theoceancleanup.com/technology/
 
 https://www.theoceancleanup.com/updates/cleanup-commences-system-001-has-arrived/
 
-Not to mention Places such as Starbucks, Seaworld, Alaskan and American airlines, hotels like Hilton and Marriot UK, Disney, and so many more! Even California is thinking about banning plastic straws. 
+Not to mention Places such as Starbucks, Seaworld, Alaskan and American airlines, hotels like Hilton and Marriott UK, Disney, and so many more! Even California is thinking about banning plastic straws. 
 
 That’s pretty freakin’ amazing!
 
