@@ -1,7 +1,7 @@
 <template>
-    <button id="toTopButton" class="scroll" @click="toTop">
-        ↑ 
-    </button>
+  <button id="toTopButton" :class="'scroll ' + displayClass" @click="toTop">
+    ↑ 
+  </button>
 </template>
 
 <script>
@@ -9,14 +9,19 @@
 export default {
   name: "ScrollToTop",
   props: ['afterDistance'],
+  data() {
+    return {
+      displayClass: ''
+    }
+  },
   mounted() {
     window.onscroll = () => {
       const 
-        buttonStyle = document.getElementById("toTopButton").style,
+        button = document.getElementById("toTopButton"),
         distance = this.$props.afterDistance ? this.$props.afterDistance : 500,
-        scrolledDownABit = document.body.scrollTop > distance || document.documentElement.scrollTop > distance
-      
-      scrolledDownABit ? buttonStyle.display = "block" : buttonStyle.display = "none"
+        shouldDisplayButton = document.body.scrollTop > distance || document.documentElement.scrollTop > distance
+
+      this.displayClass = shouldDisplayButton ? 'slide-in' : 'hide'
     }
   },
   destroyed() {
@@ -33,22 +38,37 @@ export default {
 
 <style lang="scss">
 .scroll {
-    border-radius: 100%;
-    background-color: rgba(0, 0, 0, 0.9);
-    color: whitesmoke;
-    display: none;
-    position: fixed;
-    bottom: 20px;
-    right: 30px;
-    z-index: 99;
-    border: 1px solid currentColor;
-    outline: none;
-    cursor: pointer;
-    padding: 10px 15px;
-    font-size: 1.25rem;
+  border-radius: 100%;
+  background-color: rgba(0, 0, 0, 0.9);
+  color: whitesmoke;
+  display: none;
+  position: fixed;
+  bottom: 0px;
+  right: 30px;
+  z-index: 99;
+  border: 1px solid currentColor;
+  outline: none;
+  cursor: pointer;
+  padding: 10px 15px;
+  font-size: 1.25rem;
+  animation: animatebottom 0.4s;
 
-    &:hover {
-        transform: scale(1.10, 1.10);
-    }
+  &:hover {
+    transform: scale(1.10, 1.10);
+  }
+}
+
+.hide {
+  display: none;
+}
+
+.slide-in {
+  display: block;
+  transform: translateY(50px);
+  animation: slide-in 0.5s ease forwards;
+}
+
+@keyframes slide-in {
+  to { transform: translateY(-20px); }
 }
 </style>
