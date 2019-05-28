@@ -9,7 +9,7 @@
 
     </div>
 
-    <ScrollToTop></ScrollToTop>
+    <ScrollToTop afterDistance="350"/>
     
     <div class="post content-box">
       <!-- TODO: fix once gridsome fixes this issue -->

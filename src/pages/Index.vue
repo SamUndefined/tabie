@@ -8,6 +8,8 @@
       <PostCard v-for="edge in $page.posts.edges" :key="edge.node.id" :post="edge.node"/>
     </div>
 
+    <ScrollToTop/>
+
   </Layout>
 </template>
 
@@ -42,12 +44,14 @@
 import Author from '~/components/Author.vue'
 import PostCard from '~/components/PostCard.vue'
 import Menu from '~/components/Menu.vue'
+import ScrollToTop from '~/components/ScrollToTop.vue'
 
 export default {
   components: {
     Author,
     PostCard,
-    Menu
+    Menu,
+    ScrollToTop
   },
   metaInfo: {
     title: 'Blog'

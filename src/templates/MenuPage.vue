@@ -6,6 +6,8 @@
           <h1>{{$page.page.title}}</h1>
           <div v-html="$page.page.content"></div>
         </div>
+
+        <ScrollToTop/>
     </Layout>
 </template>
 
@@ -20,10 +22,12 @@ query MenuPage ($path: String!) {
 
 <script>
 import Author from '~/components/Author.vue'
+import ScrollToTop from '~/components/ScrollToTop.vue'
 
 export default {
   components: {
     Author,
+    ScrollToTop
   },
   metaInfo () {
     return {
