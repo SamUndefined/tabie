@@ -8,6 +8,8 @@
       <PostMeta :post="$page.post" />
 
     </div>
+
+    <ScrollToTop></ScrollToTop>
     
     <div class="post content-box">
       <!-- TODO: fix once gridsome fixes this issue -->
@@ -34,12 +36,14 @@
 import PostMeta from '~/components/PostMeta'
 import PostTags from '~/components/PostTags'
 import Author from '~/components/Author.vue'
+import ScrollToTop from '~/components/ScrollToTop.vue'
 
 export default {
   components: {
     Author,
     PostMeta,
-    PostTags
+    PostTags,
+    ScrollToTop
   },
   metaInfo () {
     return {
