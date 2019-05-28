@@ -65,7 +65,7 @@ export default {
 .slide-in {
   display: block;
   transform: translateY(50px);
-  animation: slide-in 0.5s ease forwards;
+  animation: slide-in 0.8s ease forwards;
 }
 
 @keyframes slide-in {
