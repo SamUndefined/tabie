@@ -1,6 +1,6 @@
 ---
 layout: blog
-title: Anxiety Attack VS. Panic Attack
+title: Anxiety Attacks VS. Panic Attacks
 date: 2019-07-15T06:21:39.801Z
 description: >-
   There's a difference between an Anxiety attack and a Panic attack. Inside
