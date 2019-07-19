@@ -1,6 +1,6 @@
 ---
 layout: blog
-title: Why People often Mistake Panic Attack with Anxiety Attacks
+title: Why People often Mistake Panic Attacks with Anxiety Attacks
 date: 2019-07-19T06:20:06.037Z
 description: >-
   I believe in the law of attraction and boy am I feeling it! I haven't been in
